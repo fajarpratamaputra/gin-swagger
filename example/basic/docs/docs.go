@@ -28,7 +28,7 @@ var doc = `{
     "host": "petstore.swagger.io",
     "basePath": "/v2",
     "paths": {
-        "/testapi/get-string-by-int/{some_id}": {
+        "/pet/{some_id}": {
             "get": {
                 "description": "get string by ID",
                 "consumes": [
